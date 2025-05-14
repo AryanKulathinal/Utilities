@@ -1,0 +1,54 @@
+.stopwatch-container {
+    background-color: var(--card-bg, #fff);
+    color: var(--text-color, #333);
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 2rem auto;
+    text-align: center;
+    font-family: "Segoe UI", sans-serif;
+  }
+  
+  .stopwatch-time {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    letter-spacing: 1px;
+  }
+  
+  .stopwatch-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .stopwatch-btn {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .stopwatch-btn.start {
+    background-color: #008080;
+    color: white;
+  }
+  
+  .stopwatch-btn.stop {
+    background-color: #ff4d4dde;
+    color: white;
+  }
+  
+  .stopwatch-btn.reset {
+    background-color: #f0f4f8;
+    color: #333;
+    border: 1px solid #ccc;
+  }
+  
+  .stopwatch-btn:hover {
+    opacity: 0.85;
+  }
+  

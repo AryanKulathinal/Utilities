@@ -1,0 +1,16 @@
+.app-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height:80vh;
+  align-items: center;     
+  padding-top: 4rem; 
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+
+}
+
+.dark-theme {
+  background-color: #000000; 
+  color: #f0f4f8;
+}

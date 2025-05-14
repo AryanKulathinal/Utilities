@@ -1,0 +1,121 @@
+
+.to-do {
+    width: 600px;
+    margin: 1rem auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .to-do h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+  }
+  
+  .to-do input {
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    width: 60%;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-right: 0.5rem;
+  }
+  
+  .to-do button {
+    padding: 0.7rem 1rem;
+    font-size: 1rem;
+    background-color: #008080;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .to-do button:hover {
+    background-color: #006666;
+  }
+  
+  .to-do ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 2rem;
+    max-height: 200px;
+    overflow-y: auto; 
+  }
+  
+  .to-do li {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+  }
+  
+  .to-do li span {
+    flex: 1;
+    font-size: 1.05rem;
+    color: #333;
+    display: flex;
+    align-items: center; 
+    
+  }
+  
+  .to-do li strong {
+    margin-left: 0.5rem;
+    color: #333;
+    font-weight: 500;
+  }
+  
+  
+  .to-do li button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #008080;
+    font-size: 1.2rem;
+    margin-left: 0.5rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .to-do li button:hover {
+    transform: scale(1.2);
+    box-shadow: 0 4px 8px rgba(0, 128, 128, 0.2);
+    color: #f9f9f9;
+  }
+
+  
+.check-circle{
+    color:#008080;
+    margin-left: 0.5rem;
+  }
+  
+  
+  
+  .to-do ul::-webkit-scrollbar {
+    width: 7px;
+    height: 10px;
+  }
+  
+  .to-do ul::-webkit-scrollbar-track {
+    background-color: #f0f4f8;
+    border-radius: 10px;
+  }
+  
+  .to-do ul::-webkit-scrollbar-thumb {
+    background-color: #008080;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .to-do ul::-webkit-scrollbar-thumb:hover {
+    background-color: #006666;
+  }

@@ -1,0 +1,35 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    width: 100%;
+    background-color: #f0f4f8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar button {
+    flex: 1; 
+    padding: 1rem;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+    color: #333;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  
+  .navbar button:hover {
+    background-color: #e0f2f1;
+  }
+  
+  .navbar button.active {
+    background-color: #008080; 
+    color: white;
+    font-weight: bold;
+  }
+  

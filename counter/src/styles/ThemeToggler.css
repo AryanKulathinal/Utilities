@@ -1,0 +1,74 @@
+.theme-toggler-container {
+    position: fixed;
+    z-index: 1000;
+    top: 5rem;
+    right:2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+   
+  }
+  
+
+  .icon {
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .sun-icon {
+    color: #008080; 
+  }
+  
+  .moon-icon {
+    color: #f0f4f8; 
+  }
+  
+
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 34px;
+    height: 20px;
+  }
+  
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #008080; ;
+    transition: 0.4s;
+    border-radius: 34px;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: 0.4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #008080; 
+  }
+  
+  input:checked + .slider:before {
+    transform: translateX(14px);
+  }
+  
+  
+  
