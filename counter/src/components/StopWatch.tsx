@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-import "../styles/Stopwatch.css";
+import "../styles/StopWatch.css";
 
 const formatTime = (time: number) => {
   const minutes = Math.floor(time / 6000);
